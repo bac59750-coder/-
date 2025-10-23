@@ -1,0 +1,71 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+        background-color: white;
+    }
+
+    .header img {
+        width: 70px; /* chỉnh kích thước logo */
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header-text {
+        color: #0066b3;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+    .header-text h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header-text h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8;
+    }
+
+    .section-title {
+        text-align: center;
+        padding: 50px 0 20px;
+        background-color: #fff;
+    }
+
+    .section-title h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+    .underline {
+        position: relative;
+        width: 120px;
+        height: 2px;
+        background-color: #333;
+        margin: 10px auto;
+    }
+
+    .underline::before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 1px;
+        background-color: #333;
+    }
